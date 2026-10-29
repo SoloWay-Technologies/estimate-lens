@@ -1,0 +1,12 @@
+{
+  "name": "soloway-tech",
+  "interface": { "displayName": "SoloWay Tech" },
+  "plugins": [
+    {
+      "name": "estimate-lens",
+      "source": { "source": "local", "path": "./plugins/estimate-lens" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "estimate-lens",
+  "version": "0.1.0",
+  "description": "Review and compare project estimates against requirements, scope, effort, and price.",
+  "license": "MIT",
+  "author": { "name": "SoloWay Tech" }
+}

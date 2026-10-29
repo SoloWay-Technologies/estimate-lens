@@ -1,0 +1,12 @@
+{
+  "name": "soloway-tech",
+  "description": "SoloWay Tech project estimation tools",
+  "owner": { "name": "SoloWay Tech" },
+  "plugins": [
+    {
+      "name": "estimate-lens",
+      "source": "./plugins/estimate-lens",
+      "description": "Compare estimates by confirmed scope and price."
+    }
+  ]
+}

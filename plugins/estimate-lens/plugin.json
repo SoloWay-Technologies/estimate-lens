@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "estimate-lens",
+  "version": "0.1.0",
+  "description": "Review and compare project estimates against requirements, scope, effort, and price.",
+  "license": "MIT",
+  "author": { "name": "SoloWay Tech" },
+  "keywords": ["estimates", "scope", "comparison"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "EstimateLens",
+        "shortDescription": "Compare project estimates with clarity",
+        "longDescription": "Review estimate coverage, effort, and cost, and prepare questions for evaluators.",
+        "developerName": "SoloWay Tech",
+        "category": "Productivity"
+      }
+    }
+  }
+}

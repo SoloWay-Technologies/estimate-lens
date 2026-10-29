@@ -1,0 +1,19 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local environment variables and secrets
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.swp
+
+# Local Claude settings
+.claude/settings.local.json
