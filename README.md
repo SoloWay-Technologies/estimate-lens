@@ -64,26 +64,27 @@ The repository also contains marketplace catalogs for the two local clients:
 - Claude Code: `.claude-plugin/marketplace.json`
 - Codex: `.agents/plugins/marketplace.json`
 
-`soloway-tech` is the local catalog identifier used by these files. It identifies this SoloWay Tech marketplace catalog; it is not a claim that a company-wide marketplace is already registered under that name. After the repository is hosted in SoloWay's corporate Git service, use the actual repository URL when registering the marketplace.
+`soloway-tech` is the marketplace identifier used by these files. It identifies the SoloWay Tech catalog in this repository; it does not imply that a separate company-wide marketplace has been published.
 
-## Local installation
+## Installation
 
-From a checkout of this repository, Claude Code can register and install the plugin with:
+Claude Code can register and install the plugin from the GitHub marketplace with:
 
 ```text
-claude plugin marketplace add <local checkout path or corporate repository URL>
+claude plugin marketplace add SoloWay-Technologies/estimate-lens
 claude plugin install estimate-lens@soloway-tech
 ```
 
-Codex can register the same repository marketplace with:
+Codex can register and install the same repository marketplace with:
 
 ```text
-codex plugin marketplace add <local checkout path or corporate repository URL>
+codex plugin marketplace add SoloWay-Technologies/estimate-lens
+codex plugin add estimate-lens@soloway-tech
 ```
 
-Then install `EstimateLens` from the `soloway-tech` source in the Codex Plugins Directory. The exact UI and availability depend on the Codex client and organization policy. Restart or reload plugins after changing a local checkout.
+In Codex desktop, the alternative is to register the repository and install `EstimateLens` from the `soloway-tech` source in the Plugins Directory. The exact UI and availability depend on the Codex client and organization policy. Restart or reload plugins after changing the repository.
 
-These instructions describe local and private repository distribution. Public marketplace publication, workspace administration, access control, and the final corporate repository URL are deployment decisions for SoloWay Tech.
+These commands register the GitHub repository as a marketplace source. Access still depends on repository permissions and the policies of the client in use. Public marketplace publication and workspace administration are separate deployment decisions for SoloWay Tech.
 
 ## Evidence and privacy
 
